@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    max-width: auto;
+}
+.navbar-container img{
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 150px;
+}
+.list li{
+    list-style-type: none;
+}
+.navbar-container div ul{
+    margin-left: 120px;
+}
+.navbar-container div ul li{
+    display: inline;
+    position: relative;
+    top: 70px;
+    margin-left: 70px;
+    font-size: 25px;
+}
+.navbar-container div ul li:first-child{
+    color: black;
+    font-weight:bolder ;
+    text-decoration: underline;
+}
+.button-group{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 70px;
+}
+.search-icon svg{
+    margin-left: -70px;
+    margin-top: 10px;
+}
+.nav-button{
+    margin-left: -20px;
+    padding: 10px;
+    width: 200px;
+    margin-top: 20px;
+}
+div button{
+    color: rgb(5, 10, 10);
+    font-size: 25px;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    
+}
+.square img{
+    width: 300px;
+    margin-top: 240px;
+    margin-left: 220px;
+}
+.Hero img{
+    height: 400px;
+    position: absolute;
+    top: 13rem;
+    left: 9rem;
+} 
+.star img{
+    height: 60px;
+    margin-left: 30px;
+}
+.globe img{
+    height: 60px;
+    position: absolute;
+    left: 50rem;
+    top: 10rem;
+}
+.hero-container-right{
+    position: absolute;
+    left: 700px;
+    top: 250px;
+    
+}
+.star2 img{
+    position: relative;
+    left: 700px;
+}
+.hero-heading{
+    font-size: 90px;
+    margin-left: -90px;
+}
+.hero-container-right p{
+    font-size: 18px;
+    color: rgb(156, 144, 144);
+    width: 600px;
+    margin-top: 15px;
+}
+.hero-description span{
+    margin-left: 130px;
+}
+.button-email{
+    font-size: 20px;
+    height: 40px;
+    padding: 10px 20px;
+    color: rgb(94, 88, 88);
+    background-color: white;
+    border-radius: 12px;
+    width: 200px;
+}
+.button-join{
+    background-color: black;
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 22px;
+    border-radius: 10px;
+    margin-left: 25px;
+    height: 40px;
+}
+div button{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.contact-heading{
+    font-size: 25px;
+}
+.foot{
+    margin-top: 20px;
+    color: rgb(141, 133, 133);
+    margin-left: 200px;
+    width: 100px;
+}
+.icons{
+    margin-left: -60px;
+    width: 250px;
+}
+
+.icons span img{
+    margin-top: 20px;
+    height: 35px;
+    margin-left: 20px;
+}
+.button-group div button{
+    margin-top: 5px;
+}
+.foot h4{
+    width: 120px;
+}
+
+/* @media screen and (max-width:1773px){
+    .hero-container-right{
+        position: relative;
+        left: 100px;
+        margin-top: -300px;
+    }
+    .button-group{
+        margin-left: 100px;
+        margin-top: 60px;
+    }
+} */
